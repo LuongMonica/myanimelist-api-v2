@@ -6,6 +6,6 @@ module.exports = class MAL_API {
 
   constructor(token) {
     this.http.defaults.baseURL = this.#urlBase;
-    this.http.defaults.headers["Authorization"] = `Bearer ${token}`;
+    this.http.defaults.headers["X-MAL-CLIENT-ID"] = `${client-id}`;
   }
 };
