@@ -5,8 +5,8 @@ const structures = require("./structures.json");
 module.exports = class MAL_API_ANIME extends MAL_API {
   utils = new MAL_API_UTILS_ANIME();
 
-  constructor(client-id) {
-    super(client-id);
+  constructor(client_id) {
+    super(client_id);
   }
 
   /**
