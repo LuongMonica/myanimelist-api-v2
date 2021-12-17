@@ -25,7 +25,7 @@ module.exports = class MAL_API_ANIME extends MAL_API {
             limit,
             offset,
             fields: fields.toString(),
-          },
+          }
         })
         .then((response) => {
           resolve(response.data);
